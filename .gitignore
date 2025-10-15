@@ -1,25 +1,42 @@
-﻿# Python artifacts
-__pycache__/
-*.py[cod]
-*.sqlite3
-jobs.db
-.env
-.venv/
-venv/
-Backend/venv/
-/Backend/venv/
-/Frontend/my-react-app/node_modules/
-/Frontend/my-react-app/.vite/
+# Global ignores
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Node
 node_modules/
 dist/
 build/
-*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.db
+.env
+.env.*
+*.env
+*.env.*
+
 # VSCode
 .vscode/
-# MacOS
-.DS_Store
-# Byte-compiled caches
-*.pyc
-# local env
-.env.local
 
+# OS
+*.swp
+*.swo
+
+# Ignore database and secrets
+Backend/jobs.db
+Backend/.env*
+
+# Ensure pycache and compiled python files are ignored globally
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtualenvs
+venv/
+.venv/
+
+# Ignore Editor/IDE directories
+.vscode/

@@ -1,0 +1,17 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Local environment and secrets
+.env
+.env.*
+.venv/
+venv/
+
+# Database
+jobs.db
+
+# Backup files
+*-LAPTOP-*.py
+*-LAPTOP-*.txt
