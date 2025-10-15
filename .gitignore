@@ -1,0 +1,25 @@
+﻿# Python artifacts
+__pycache__/
+*.py[cod]
+*.sqlite3
+jobs.db
+.env
+.venv/
+venv/
+Backend/venv/
+/Backend/venv/
+/Frontend/my-react-app/node_modules/
+/Frontend/my-react-app/.vite/
+node_modules/
+dist/
+build/
+*.log
+# VSCode
+.vscode/
+# MacOS
+.DS_Store
+# Byte-compiled caches
+*.pyc
+# local env
+.env.local
+
